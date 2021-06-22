@@ -9,7 +9,7 @@ dict_chainA = {}
 dict_chainB = {}
 
 # the file_path specifies which files to look at (in this case, .txt files)
-file_path = "/Users/IshaSharma/PycharmProjects/iGEM-ML-Pipeline/*.txt"
+file_path = ".../*.txt"
 
 # a list of all the file names with the file_path
 list_file_names = glob.glob(file_path)
